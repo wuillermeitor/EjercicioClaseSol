@@ -16,6 +16,9 @@ void myStack::pop() {
 }
 
 void myStack::push(int element) {
+	node *tmp = new node;
+	tmp->info = element;
+
 
 }
 
