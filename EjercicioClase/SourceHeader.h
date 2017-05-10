@@ -6,10 +6,11 @@
 class myStack {
 public:
 	struct node {
-		int info;
+		int value;
 		node *next;
 	};
-	node *numberone;
+	node *first;
+	node *second;
 
 	//Métodos
 	int top();
