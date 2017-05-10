@@ -11,25 +11,24 @@ myStack::~myStack() {
 
 }
 
-void myStack::pop() {
+int myStack::top() {
 
 }
 
 void myStack::push(int element) {
 	node *tmp = new node;
 	tmp->info = element;
-
-
+	
 }
 
-int myStack::front() {
-
-}
-
-bool myStack::isEmpty() {
+void myStack::pop() {
 
 }
 
 int myStack::size() {
+
+}
+
+bool myStack::isEmpty() {
 
 }

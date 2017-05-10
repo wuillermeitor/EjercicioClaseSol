@@ -12,11 +12,11 @@ public:
 	node *numberone;
 
 	//Métodos
-	void pop();
+	int top();
 	void push(int element);
-	int front();
-	bool isEmpty();
+	void pop();
 	int size();
+	bool isEmpty();
 
 	//Constructores
 	myStack();
