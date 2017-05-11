@@ -18,12 +18,12 @@ int myStack::top() {
 void myStack::push(int element) {
 	node *tmp = new node;
 	tmp->value = element;
-	tmp->second = first;
+	tmp->next = first;
 	first = tmp;
 }
 
 void myStack::pop() {
-	second = nullptr;
+	node *next = nullptr;
 }
 
 int myStack::size() {
